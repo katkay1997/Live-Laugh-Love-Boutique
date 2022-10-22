@@ -1,0 +1,153 @@
+@font-face {
+    font-family: poppins;
+    src: url(poppins/Poppins-ExtraLight.otf);
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: poppins;
+  }
+  
+  @media (min-width: 768px) {
+    .button-59 {
+      min-width: 170px;
+    }
+  }
+
+  /* Create three equal columns that floats next to each other */
+  
+  .column-1 {
+    float: left;
+    width: 100%;
+    padding: 2px;
+    height: 40px; /* Should be removed. Only for demonstration */
+    background-color:#C31D5F;
+    text-align: center;
+    color:white;
+    
+    
+  }
+  
+  .column-2 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 75px;
+    background-color: #FBA6D0;
+    
+  }
+  
+  ul li{
+    /* list li's on the same line*/
+    font-size: 2px;
+    text-align: right;
+    color: black;
+  }
+  
+  
+  .column-3 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 750px; /* 720 */
+    background-color: #8D1F58;
+  }
+
+  .page-2-banner{
+    background-color: #283944 !important;
+  }
+  
+  #column3-image {
+      width: 100%;
+      padding-left: 0px;
+      
+  }
+  
+  .spacing {
+    margin: 5px; 
+    width: 20% !important;
+    margin-left: 50px!important;
+  }
+  
+  .column-imgs{
+    padding: auto;
+    margin: auto;
+    margin-right: 0;
+     margin-left: 0;
+    
+    
+  }
+  
+  .column-4 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+  }
+  
+  .column-5 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+  }
+  
+  .column-6 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+  }
+  
+  .column-7 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+  }
+  
+  .column-8 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+  }
+  
+  .column-9 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+  }
+  
+  .column-10 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+  }
+  
+  .column-11 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+  }
+  
+  .last-column {
+  
+    float: left;
+    width: 100%;
+    padding: 2px;
+    height: 100px; /* Should be removed. Only for demonstration */
+    background-color:#C31D5F;
+    text-align: center;
+  
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
